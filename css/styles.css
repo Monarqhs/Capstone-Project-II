@@ -1,0 +1,175 @@
+@font-face {
+  font-family: 'THUNDER ExtraBold';
+  src: url(../fonts/Thunder-ExtraBoldLC.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'THUNDER SemiBold';
+  src: url(../fonts/Thunder-SemiBoldLC.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+  font-family: "Hanken Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #1E1E1E;
+}
+
+/* HERO SECTION */
+
+#Hero{
+  background-color: #1E1E1E;
+  height: 706px;
+}
+
+.title1-hero{
+  font-family: 'THUNDER ExtraBold', sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 200px;
+}
+.title2-hero{
+  font-family: "Italianno", cursive;
+  color: #EE4E4E;
+  text-align: center;
+  font-size: 124px;
+}
+.title3-hero{
+  color: white;
+  font-size: 48px;
+  font-weight: 300;
+  letter-spacing: 11.8px;
+  text-align: center;
+}
+@media (max-width: 554px) {
+  .title1-hero{
+    font-size: 140px;
+  }
+  .title2-hero{
+    font-size: 87px;
+  }
+  .title3-hero{
+    font-size: 34px;
+  }
+}
+.credit{
+  color: white;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 6rem;
+}
+
+/* SUBTITLE */
+.sub-title{
+  font-family: 'THUNDER SemiBold';
+  color: #EE4E4E;
+  font-size: 60px;
+  text-align: center;
+}
+
+/* PROFILE SECTION */
+.profile-section{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.profile-photo{
+  width: 190px;
+  height: 190px;
+  border-radius: 190px;
+}
+
+@media (max-width: 768px) {
+  .profile-section{
+    flex-direction: column;
+    height: 100%;
+  }
+}
+
+/* SKILL SECTION */
+.skill-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+.skill-1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+.skill-2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+.skill-photo{
+  width: 250px;
+  height: 250px;
+  border-radius: 17px;
+  border: 2px solid #1E1E1E;
+}
+
+@media (max-width: 768px) {
+  .skill-section{
+    flex-direction: column;
+    height: 100%;
+  }
+  .skill-1{
+    flex-direction: column;
+  }
+  .skill-2{
+    flex-direction: column;
+  }
+}
+
+/* CONNECT SECTION */
+#Connect{
+  text-align: center;
+}
+.connect{
+  align-items: center;
+  text-align: center;
+}
+.connect-text{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+@media (max-width: 992px) {
+  .connect-text{
+    font-size: 23px;
+  }
+}
+@media (max-width: 546px) {
+  .connect-text{
+    font-size: 20px;
+  }
+}
+.contact-button{
+  font-family: "Hanken Grotesk", sans-serif;
+  font-weight: 500;
+  color: white;
+  background-color: #1E1E1E;
+  border-radius: 36px;
+  width: 180px;
+  height: 50px;
+}
+.contact{
+  text-decoration: none;
+  color: white;
+}
+
+/* FOOTER SECTION */
+footer{
+  background-color: #1E1E1E;
+}
